@@ -4,7 +4,7 @@ import usePostApi from "./API/PostApi";
 import useCommentApi from "./API/CommentApi";
 
 //intial  context
-const DataContext = createContext();
+export const DataContext = createContext();
 
 // content provider component
 function DataProvider(props) {
